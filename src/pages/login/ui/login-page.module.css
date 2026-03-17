@@ -1,0 +1,130 @@
+.root {
+  min-height: 100vh;
+}
+
+.root :global(.ant-layout-content) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 419px;
+  height: 83px;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.title {
+  width: 385px;
+  height: 44px;
+  margin: 0 !important;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #232323;
+  flex: none;
+  flex-grow: 0;
+}
+
+.subtitle {
+  width: 419px;
+  height: 27px;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #e0e0e0;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.logoBlock {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  width: 52px;
+  height: 52px;
+  flex: none;
+  flex-grow: 0;
+  background:
+    linear-gradient(360deg, rgba(35, 35, 35, 0) 50%, rgba(35, 35, 35, 0.06) 100%), #ffffff;
+  box-shadow:
+    0 0 0 2px #ffffff,
+    0 12px 8px rgba(0, 0, 0, 0.03);
+  border-radius: 100px;
+}
+
+.logo {
+  width: 35px;
+  height: 34px;
+  flex: none;
+  flex-grow: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  gap: 32px;
+  width: 527px;
+  min-height: 716px;
+  background: #ffffff;
+  box-shadow: 0 24px 32px rgba(0, 0, 0, 0.04);
+  border-radius: 40px;
+}
+
+.card :global(.ant-card-body) {
+  padding: 0;
+}
+
+.content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+  gap: 32px;
+  width: 515px;
+  min-height: 704px;
+  flex: none;
+  flex-grow: 0;
+  background: linear-gradient(180deg, rgba(35, 35, 35, 0.03) 0%, rgba(35, 35, 35, 0) 50%);
+  border-radius: 34px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0;
+  gap: 20px;
+  width: 100%;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}

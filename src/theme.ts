@@ -1,13 +1,14 @@
-import type { ThemeConfig } from 'antd'
+import type { ThemeConfig } from 'antd';
 
 export const appTheme: ThemeConfig = {
   token: {
+    fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     colorPrimary: '#2f3cff',
     colorLink: '#2f3cff',
     colorTextBase: '#171717',
     colorTextSecondary: '#8c8c8c',
     colorBorder: '#ebebeb',
-    colorBgLayout: '#f6f6f7',
+    colorBgLayout: '#f9f9f9',
     colorBgContainer: '#ffffff',
     borderRadius: 12,
     borderRadiusLG: 20,
@@ -40,4 +41,4 @@ export const appTheme: ThemeConfig = {
       rowHoverBg: '#fafafa',
     },
   },
-}
+};

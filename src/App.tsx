@@ -1,13 +1,7 @@
-import { Typography } from 'antd'
-
-const { Title } = Typography
+import { AppRouter } from '@/app/router';
 
 function App() {
-  return (
-    <div style={{ padding: 24 }}>
-      <Title level={1}>Заголовок</Title>
-    </div>
-  )
+  return <AppRouter />;
 }
 
-export default App
+export default App;
