@@ -1,6 +1,7 @@
 import { Navigate, Route, BrowserRouter, Routes } from 'react-router-dom';
 import { useAuthStore } from '@/app/store/auth';
 import { LoginPage } from '@/pages/login';
+import { ProductsPage } from '@/pages/products';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const token = useAuthStore((s) => s.token);
@@ -30,9 +31,7 @@ export function AppRouter() {
           path="/"
           element={
             <ProtectedRoute>
-              <div style={{ padding: 24 }}>
-                <h1>Главная</h1>
-              </div>
+              <ProductsPage />
             </ProtectedRoute>
           }
         />

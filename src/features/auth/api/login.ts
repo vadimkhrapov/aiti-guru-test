@@ -1,4 +1,4 @@
-import type { LoginResponse } from '@/entities/user/model/types';
+import type { LoginResponse } from '@/entities/user';
 import { apiRequest } from '@/shared/api/base';
 
 export interface LoginParams {

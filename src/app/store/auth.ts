@@ -1,7 +1,7 @@
 import type { PersistStorage } from 'zustand/middleware';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { User } from '@/entities/user/model/types';
+import type { User } from '@/entities/user';
 
 const AUTH_STORAGE_KEY = 'auth-storage';
 

@@ -4,7 +4,7 @@ import type { FormProps } from 'antd';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuthStore } from '@/app/store/auth';
 import { login } from '@/features/auth/api/login';
-import type { User } from '@/entities/user/model/types';
+import type { User } from '@/entities/user';
 import styles from './login-form.module.css';
 
 interface LoginFormValues {
